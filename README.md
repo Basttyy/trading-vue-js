@@ -7,11 +7,11 @@
 
 # TradingVue.js ![npm](https://img.shields.io/npm/v/trading-vue-js.svg?color=brightgreen&label=version) ![license](https://img.shields.io/badge/license-MIT-blue.svg) ![build](https://img.shields.io/badge/build-passing-brightgreen.svg) ![size](https://img.shields.io/github/size/tvjsx/trading-vue-js/dist/trading-vue.min.js.svg) [![Gitter](https://badges.gitter.im/Trading-Vue-js/community.svg)](https://gitter.im/Trading-Vue-js/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![DONATE](https://img.shields.io/badge/฿-Donate-f7921b.svg)](https://github.com/tvjsx/trading-vue-js/blob/master/DONATION.md)
 
-**TradingVue.js** is a hackable charting lib for traders. You can draw literally ANYTHING on top of candlestick charts.
+**TradingVue.js** was a hackable charting lib for traders. You could draw literally ANYTHING on top of candlestick charts. [Not Maintained]
 
 <div align="center">
 <br>
-  <a href="https://discord.gg/PKD4PUy"> <img src="https://raw.githubusercontent.com/tvjsx/trading-vue-js/master/assets/README-06bc5a15.png" alt="trading-vue logo"></a>
+  <a href="https://discord.gg/wrXCN6ysgW"> <img src="https://raw.githubusercontent.com/tvjsx/trading-vue-js/master/assets/README-06bc5a15.png" alt="trading-vue logo"></a>
 </div>
 
 
@@ -42,7 +42,7 @@ If you create trading software - this lib is probably for you. If you like to ma
 
 ## Demo & Docs
 
-### [Demo](https://tvjsx.github.io/trading-vue-demo/) | [Getting Started](https://github.com/tvjsx/trading-vue-js/tree/master/docs/guide) | [API Book](https://github.com/tvjsx/trading-vue-js/tree/master/docs/api#api-book) | [Built-in Overlays](https://github.com/tvjsx/trading-vue-js/tree/master/docs/overlays#built-in-overlays) | [Examples](https://github.com/tvjsx/trading-vue-js/tree/master/test/tests) | [101 Project](https://github.com/tvjsx/trading-vue-101) | [llll Gitter](https://gitter.im/Trading-Vue-js) | [FAQ](https://github.com/tvjsx/trading-vue-js/tree/master/docs/faq) | [FREE Overlay Pack](https://github.com/tvjsx/tvjs-overlays) | [Free XP Pack](https://github.com/tvjsx/tvjs-xp) | [Playground](https://tvjs.io/play)
+### [Demo](https://tvjsx.github.io/trading-vue-demo/) | [Getting Started](https://github.com/tvjsx/trading-vue-js/tree/master/docs/guide) | [API Book](https://github.com/tvjsx/trading-vue-js/tree/master/docs/api#api-book) | [Built-in Overlays](https://github.com/tvjsx/trading-vue-js/tree/master/docs/overlays#built-in-overlays) | [Examples](https://github.com/tvjsx/trading-vue-js/tree/master/test/tests) | [101 Project](https://github.com/tvjsx/trading-vue-101) | [llll Gitter](https://gitter.im/Trading-Vue-js) | [FAQ](https://github.com/tvjsx/trading-vue-js/tree/master/docs/faq) | [FREE Overlay Pack](https://github.com/tvjsx/tvjs-overlays) | [Free XP Pack](https://github.com/tvjsx/tvjs-xp)
 
 *To run the examples, download the repo & `npm run test`*
 

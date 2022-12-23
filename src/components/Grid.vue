@@ -142,25 +142,42 @@ export default {
                         data: d.data,
                         settings: d.settings,
                         i0: d.i0,
-                        tf: d.tf
+                        tf: d.tf,
+                        last: d.last
                     })
                     count[d.type] = 0
                 }
             }
-            return comp_list.map((x, i) => h(x.cls, Object.assign(
-                this.common_props(),
-                this.layer_events,
-                {
-                    id: `${x.type}_${count[x.type]++}`,
-                    type: x.type,
-                    data: x.data,
-                    settings: x.settings,
-                    i0: x.i0,
-                    tf: x.tf,
-                    num: i,
-                    grid_id: this.$props.grid_id,
-                    meta: this.$props.meta
-                }))
+            // return comp_list.map((x, i) => h(x.cls, Object.assign(
+            //     this.common_props(),
+            //     this.layer_events,
+            //     {
+            //         id: `${x.type}_${count[x.type]++}`,
+            //         type: x.type,
+            //         data: x.data,
+            //         settings: x.settings,
+            //         i0: x.i0,
+            //         tf: x.tf,
+            //         num: i,
+            //         grid_id: this.$props.grid_id,
+            //         meta: this.$props.meta
+            //     }))
+            // )
+            return comp_list.map((x, i) => h(x.cls, {
+                    on: this.layer_events,
+                    attrs: Object.assign(this.common_props(), {
+                        id: `${x.type}_${count[x.type]++}`,
+                        type: x.type,
+                        data: x.data,
+                        settings: x.settings,
+                        i0: x.i0,
+                        tf: x.tf,
+                        num: i,
+                        grid_id: this.$props.grid_id,
+                        meta: this.$props.meta,
+                        last: x.last
+                    })
+                })
             )
         },
         common_props() {

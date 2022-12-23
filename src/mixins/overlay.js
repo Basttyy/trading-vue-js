@@ -7,7 +7,7 @@ export default {
     props: [
         'id', 'num', 'interval', 'cursor', 'colors',
         'layout', 'sub', 'data', 'settings', 'grid_id',
-        'font', 'config', 'meta', 'tf', 'i0'
+        'font', 'config', 'meta', 'tf', 'i0', 'last'
     ],
     emits: [
         'new-grid-layer', 'layer-meta-props', 'delete-grid-layer',
